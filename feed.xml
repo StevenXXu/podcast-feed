@@ -3,14 +3,14 @@
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Steven's Podcast</title>
+    <title>Meridian</title>
     <link>https://stevenxxu.github.io/podcast-feed</link>
-    <description>A personalized AI-generated podcast covering VC, tech, and venture science.</description>
+    <description>Venture capital, emerging technologies, and the companies shaping the future.</description>
     <language>en</language>
     <atom:link href="https://stevenxxu.github.io/podcast-feed/feed.xml" rel="self" type="application/rss+xml"/>
     
     <itunes:owner>
-      <itunes:name>Steven's Podcast</itunes:name>
+      <itunes:name>Meridian</itunes:name>
       <itunes:email>steve.x.xu@gmail.com</itunes:email>
     </itunes:owner>
     
@@ -18,18 +18,30 @@
     <!-- Show artwork -->
     <image>
       <url>https://stevenxxu.github.io/podcast-feed/cover-art.png</url>
-      <title>Steven's Podcast</title>
+      <title>Meridian</title>
       <link>https://stevenxxu.github.io/podcast-feed</link>
     </image>
     <itunes:image href="https://stevenxxu.github.io/podcast-feed/cover-art.png"/>
 
     <!-- Podcast player metadata -->
-    <itunes:author>Steven's Podcast</itunes:author>
-    <itunes:summary>A personalized AI-generated podcast covering VC, tech, and venture science.</itunes:summary>
+    <itunes:author>Meridian</itunes:author>
+    <itunes:summary>Venture capital, emerging technologies, and the companies shaping the future.</itunes:summary>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
 
+    
+    <item>
+      <title>SpaceX IPO: The .5 Trillion Bet</title>
+      <description>SpaceX is targeting a .5 trillion IPO in 2026. Through a VC lens, we break down Starlink, Starship, the xAI merger, and whether it's actually cheap or genuinely overpriced.</description>
+      <pubDate>Thu, 09 Apr 2026 12:55:44 GMT</pubDate>
+      <enclosure url="https://stevenxxu.github.io/podcast-feed/episodes/2026-04-09-225515.mp3"
+                 length="4490179"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://stevenxxu.github.io/podcast-feed/episodes/2026-04-09-225515.mp3</guid>
+      <itunes:duration>4:40</itunes:duration>
+      <itunes:summary>SpaceX is targeting a .5 trillion IPO in 2026. Through a VC lens, we break down Starlink, Starship, the xAI merger, and whether it's actually cheap or genuinely overpriced.</itunes:summary>
+    </item>
     
     <item>
       <title>SpaceX IPO Deep Dive</title>
