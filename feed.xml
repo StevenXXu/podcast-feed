@@ -3,25 +3,45 @@
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Podcast</title>
+    <title>Steven's Podcast</title>
     <link>https://stevenxxu.github.io/podcast-feed</link>
-    <description>A personalized AI-generated podcast.</description>
+    <description>A personalized AI-generated podcast covering VC, tech, and venture science.</description>
     <language>en</language>
     <atom:link href="https://stevenxxu.github.io/podcast-feed/feed.xml" rel="self" type="application/rss+xml"/>
+    
     <itunes:owner>
-      <itunes:name>Steven</itunes:name>
+      <itunes:name>Steven's Podcast</itunes:name>
       <itunes:email>steve.x.xu@gmail.com</itunes:email>
     </itunes:owner>
+    
+
+    <!-- Show artwork -->
     <image>
       <url>https://stevenxxu.github.io/podcast-feed/cover-art.png</url>
-      <title>My Podcast</title>
+      <title>Steven's Podcast</title>
       <link>https://stevenxxu.github.io/podcast-feed</link>
     </image>
     <itunes:image href="https://stevenxxu.github.io/podcast-feed/cover-art.png"/>
-    <itunes:author>Steven</itunes:author>
-    <itunes:summary>A personalized AI-generated podcast.</itunes:summary>
+
+    <!-- Podcast player metadata -->
+    <itunes:author>Steven's Podcast</itunes:author>
+    <itunes:summary>A personalized AI-generated podcast covering VC, tech, and venture science.</itunes:summary>
     <itunes:category text="Technology"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:type>episodic</itunes:type>
+
+    
+    <item>
+      <title>SpaceX IPO Deep Dive</title>
+      <description>A solo narrator analysis of SpaceX's .5T IPO valuation — Starlink, Starship, xAI merger, and whether it's worth investing.</description>
+      <pubDate>Thu, 09 Apr 2026 11:53:51 GMT</pubDate>
+      <enclosure url="https://stevenxxu.github.io/podcast-feed/episodes/2026-04-09-214800.mp3"
+                 length="4812844"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://stevenxxu.github.io/podcast-feed/episodes/2026-04-09-214800.mp3</guid>
+      <itunes:duration>5:00</itunes:duration>
+      <itunes:summary>A solo narrator analysis of SpaceX's .5T IPO valuation — Starlink, Starship, xAI merger, and whether it's worth investing.</itunes:summary>
+    </item>
+    
   </channel>
 </rss>
